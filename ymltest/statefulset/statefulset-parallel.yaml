@@ -22,7 +22,7 @@ spec:
     matchLabels:
       app: nginx-statefulset
   serviceName: "nginx-statefulset-service"
-  replicas: 2
+  replicas: 3
   template:
     metadata:
       labels:
